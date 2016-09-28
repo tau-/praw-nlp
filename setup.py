@@ -4,14 +4,14 @@ with open('README.rst', 'r') as f:
     long_description = f.read()
 
 setup(
-    name='makenew-python-package',
-    version='1.2.0',
-    author='Evan Sosenko',
-    author_email='razorx@evansosenko.com',
+    name='praw-nlp',
+    version='0.0.1',
+    author='Alex Troesch',
+    author_email='ajtroesch@gmail.com',
     packages=find_packages(exclude=['docs']),
-    url='https://github.com/makenew/python-package',
+    url='https://github.com/tau-/praw-nlp',
     license='MIT',
-    description='Python package skeleton.',
+    description='Scrape Reddit and classify text.',
     long_description=long_description,
     install_requires=[
     ]
